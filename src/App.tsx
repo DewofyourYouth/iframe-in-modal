@@ -10,8 +10,8 @@ import Typography from "@material-ui/core/Typography";
 import Divider from "@material-ui/core/Divider";
 import IconButton from "@material-ui/core/IconButton";
 import HomeIcon from "@material-ui/icons/Home";
-import MailIcon from "@material-ui/icons/Mail";
-import MenuIcon from "@material-ui/icons/Menu";
+import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
+import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
@@ -93,10 +93,11 @@ export default function App() {
                 <ListItemText>Home</ListItemText>
               </ListItem>
             </Link>
+            <Divider />
             <Link to="/subscribe">
               <ListItem>
                 <ListItemIcon>
-                  <MailIcon />
+                  <SubscriptionsIcon />
                 </ListItemIcon>
                 <ListItemText>Subscribe</ListItemText>
               </ListItem>
