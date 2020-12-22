@@ -56,7 +56,7 @@ export default function App() {
             >
               <MenuIcon />
             </IconButton><img src={logo} height="40px" alt="logo" /> 
-            <Typography variant="h6" noWrap>
+            <Typography variant="h5" noWrap>
               TheRandomCompany 
             </Typography>
           </Toolbar>

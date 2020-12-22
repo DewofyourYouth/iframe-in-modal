@@ -7,12 +7,12 @@ export default function Welcome() {
   const history = useHistory();
   return (
     <div>
-      <Typography variant="h2">Welcome</Typography>
+      <Typography variant="h2" gutterBottom>Welcome</Typography>
+      <Typography variant="subtitle1" gutterBottom>Click here to subscribe to the channel!</Typography>
       <Button
         size="large"
         color="primary"
         variant="contained"
-        style={{ marginTop: "20px" }}
         startIcon={<SubscriptionsIcon />}
         onClick={() => history.push('/subscribe')}
       >
