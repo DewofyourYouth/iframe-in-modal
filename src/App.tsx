@@ -55,7 +55,7 @@ export default function App() {
               })}
             >
               <MenuIcon />
-            </IconButton><img src={logo} height="50px" /> 
+            </IconButton><img src={logo} height="40px" /> 
             <Typography variant="h6" noWrap>
               TheRandomCompany 
             </Typography>
