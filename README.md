@@ -1,14 +1,14 @@
 Challenge Description
 You are asked to implement a Modal Form - residing inside a friendly iframe.
 1. Implement 2 pages including the following items:
-  1. Basic navigation bar - with logo and random company name
-  1. Page title - dynamic based on current selected route
-  1. Navigation item - a way to transition between pages
-1. First page should include a welcome message and an action button pointing to the second
+  1.1. Basic navigation bar - with logo and random company name
+  1.2. Page title - dynamic based on current selected route
+  1.3. Navigation item - a way to transition between pages
+2. First page should include a welcome message and an action button pointing to the second
 page.
-3) The second page should have a clickable button in the center with the text "Subscribe to our
+3. The second page should have a clickable button in the center with the text "Subscribe to our
 channel".
-a) The button should animate an iframe expanding from the center of the screen to match
+  3.1 The button should animate an iframe expanding from the center of the screen to match
 half of the screen's height and width and be presented to the user as a modal.
 b) The iframe modal should be centered regardless of the scrolling of the page.
 c) The iframe modal should transition (animate) between open and closed state.
