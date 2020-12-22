@@ -55,8 +55,8 @@ export default function App() {
               })}
             >
               <MenuIcon />
-            </IconButton><img src={logo} height="50px" /> 
-            <Typography variant="h6" noWrap>
+            </IconButton><img src={logo} height="40px" alt="logo" /> 
+            <Typography variant="h5" noWrap>
               TheRandomCompany 
             </Typography>
           </Toolbar>
@@ -94,9 +94,8 @@ export default function App() {
                 <ListItemText>Home</ListItemText>
               </ListItem>
             </Link>
-            <Divider />
             <Link to="/subscribe">
-              <ListItem>
+              <ListItem button key="subscribe">
                 <ListItemIcon>
                   <SubscriptionsIcon />
                 </ListItemIcon>
