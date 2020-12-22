@@ -14,27 +14,26 @@ half of the screen's height and width and be presented to the user as a modal.
   * The iframe modal should transition (animate) between open and closed state.
   * The iframe should include a basic html form, containing an input field(Dropdown) and a
 submit button below it:
-    -- The input field is a Dropdown with a textfield inside of it.
-    -- The dropdown's width is the size of the modal minus some padding.
-    -- The dropdown in Resting state (not open or focused) should show all of the
+    - The input field is a Dropdown with a textfield inside of it.
+    - The dropdown's width is the size of the modal minus some padding.
+    - The dropdown in Resting state (not open or focused) should show all of the
 SelectedOptions - present them as "UI Chips" (https://i.stack.imgur.com/HPeTv.png)
 with a maximum height of 1 row (50px);
-    -- When clicked, the dropdown opens and expands its size to a maximum of 3 rows,
+    - When clicked, the dropdown opens and expands its size to a maximum of 3 rows,
 without affecting the submit button's position.
-    -- Typing into the input field should filter the options listed in the dropdown, and show
+    - Typing into the input field should filter the options listed in the dropdown, and show
 another option on the top to create the option - clicking on that, or on the Enter key will
 create that option and add it into the list of options and into the list of SelectedOptions.
-    -- Selecting an option from the dropdown will add it to the SelectedOptions.
-    -- If The total number of chips in the row exceeds the size of the row, aggregate them
+    - Selecting an option from the dropdown will add it to the SelectedOptions.
+    - If The total number of chips in the row exceeds the size of the row, aggregate them
 into a "(5 more)" chip instead.
-e) On submitting the form, navigate the user back to the first page, and show a message
+  * On submitting the form, navigate the user back to the first page, and show a message
 instead of the Welcome message, stating the user's selected "numbers" (SelectedOptions)
 and a message saying "user subscribed"
-f) on refresh the page should remember the subscription and reload the welcome page the
+  * on refresh the page should remember the subscription and reload the welcome page the
 same way.
-4) Bonus - style the application using material-ui / ant-design
-5) Bonus 2 - use styled-components or emotion as Css-In-Js solution
-**You can use any tools or plugins you wish, as long as they dont implement the main functionality
-and are only "helpers" (e.g. lodash)
+  * Bonus - style the application using material-ui / ant-design
+  *  Bonus 2 - use styled-components or emotion as Css-In-Js solution
+**You can use any tools or plugins you wish, as long as they dont implement the main functionality and are only "helpers" (e.g. lodash)**
 
 Good luck!
