@@ -19,6 +19,7 @@ import { ListItem, ListItemText, ListItemIcon } from "@material-ui/core";
 import Subscribe from "pages/Subscribe";
 import Welcome from "pages/Welcome";
 import {useStyles} from 'styles';
+import logo from './logo.svg';
 
 export default function App() {
   const classes = useStyles();
@@ -54,9 +55,9 @@ export default function App() {
               })}
             >
               <MenuIcon />
-            </IconButton>
+            </IconButton><img src={logo} height="50px" /> 
             <Typography variant="h6" noWrap>
-              Modal Iframe Test
+              TheRandomCompany 
             </Typography>
           </Toolbar>
         </AppBar>
