@@ -1,14 +1,10 @@
 import React, { useState } from "react";
-import { Typography, Button, Dialog } from "@material-ui/core";
+import { Typography, Button } from "@material-ui/core";
 import SubscriptionsIcon from "@material-ui/icons/Subscriptions";
 import IFrameContainer from "components/IFrame";
 
 export default function Subscribe() {
   const [open, setOpen] = useState(false);
-
-  const handleClose = () => {
-    setOpen(false);
-  };
 
   return (
     <div>
