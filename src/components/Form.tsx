@@ -1,8 +1,11 @@
 import React from "react";
-import { Typography, FormControl, TextField } from "@material-ui/core";
+import { FormControl, TextField } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 
 const useStyles = makeStyles({
+  container: {
+    padding: "40px",
+  },
   textInput: {
     marginRight: "20px",
   },
@@ -11,10 +14,7 @@ const useStyles = makeStyles({
 export default function Form() {
   const classes = useStyles();
   return (
-    <div style={{ padding: "40px" }}>
-      <Typography variant="h3" align="center">
-        Form Here
-      </Typography>
+    <div className={classes.container}>
       <FormControl>
         <div>
           <TextField id="name" label="Name" className={classes.textInput} />
