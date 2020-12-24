@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Typography, Button, Dialog } from "@material-ui/core";
 import SubscriptionsIcon from "@material-ui/icons/Subscriptions";
+import IFrameContainer from "components/IFrame";
+
 export default function Subscribe() {
   const [open, setOpen] = useState(false);
 
@@ -18,13 +20,12 @@ export default function Subscribe() {
         color="primary"
         variant="contained"
         startIcon={<SubscriptionsIcon />}
-        onClick={() => setOpen(true)}
+        onClick={() => setOpen(!open)}
       >
         Subscribe{" "}
       </Button>
-      <Dialog open={open} onClose={handleClose} fullWidth={true} maxWidth="md">
-        <h1>Dialog is open</h1>
-      </Dialog>
+      <br />
+      <IFrameContainer isOpen={open} />
     </div>
   );
 }

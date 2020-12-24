@@ -10,16 +10,16 @@ import Typography from "@material-ui/core/Typography";
 import Divider from "@material-ui/core/Divider";
 import IconButton from "@material-ui/core/IconButton";
 import HomeIcon from "@material-ui/icons/Home";
-import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
-import MenuIcon from '@material-ui/icons/Menu';
+import SubscriptionsIcon from "@material-ui/icons/Subscriptions";
+import MenuIcon from "@material-ui/icons/Menu";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import { ListItem, ListItemText, ListItemIcon } from "@material-ui/core";
 import Subscribe from "pages/Subscribe";
 import Welcome from "pages/Welcome";
-import {useStyles} from 'styles';
-import logo from './logo.svg';
+import { useStyles } from "styles";
+import logo from "./logo.svg";
 
 export default function App() {
   const classes = useStyles();
@@ -55,9 +55,10 @@ export default function App() {
               })}
             >
               <MenuIcon />
-            </IconButton><img src={logo} height="40px" alt="logo" /> 
+            </IconButton>
+            <img src={logo} height="40px" alt="logo" />
             <Typography variant="h5" noWrap>
-              TheRandomCompany 
+              TheRandomCompany
             </Typography>
           </Toolbar>
         </AppBar>
