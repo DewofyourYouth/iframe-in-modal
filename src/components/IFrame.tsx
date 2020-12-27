@@ -1,6 +1,5 @@
 import React, { FunctionComponent } from "react";
 import IframeResizer from "iframe-resizer-react";
-
 import "./IFrame.css";
 
 interface IFrameProps {
